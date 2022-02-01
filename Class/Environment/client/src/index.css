@@ -1,0 +1,445 @@
+:root {
+  --background_color-: #f8f8f8e6;
+}
+
+* {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+
+/* Navbar---------------------------------- */
+.Nav_color {
+  background-color: rgba(88, 88, 88, 0.151);
+}
+
+/* Registration form page ------------------------- */
+.register_body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background_color-);
+  display: flex;
+  justify-content: center;
+}
+
+.register_container {
+  position: relative;
+  width: 60%;
+  height: 500px;
+  background-color: white;
+  padding: 50px 60px 50px 60px;
+  position: absolute;
+  box-shadow: 0px 0px 25px rgb(177, 177, 177);
+  transition: 200ms;
+  border-radius: 15px;
+  top: 15%;
+}
+
+.signup_text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+form {
+  display: inline-block;
+}
+.form_group {
+  margin: 20px;
+}
+.form_input {
+  border-width: 0px 0px 1px 0px;
+  width: 250px;
+}
+.form_input:focus {
+  outline: none;
+  border-width: 0px 0px 1px 0px;
+}
+.form_input:read-write {
+  margin-left: 10px;
+}
+.form_input::placeholder {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 30px;
+}
+
+input[type="submit"] {
+  background-color: #3b6ddf;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin: 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 200ms;
+  text-transform: capitalize;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.02);
+}
+
+.signup_image {
+  width: 300px;
+  height: 300px;
+}
+
+.signup_image_div {
+  position: absolute;
+  display: inline-block;
+  border-radius: 10px;
+  right: 50px;
+}
+
+.signup_image_link {
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+
+/* Login form --------------------------------------------- */
+.login_text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.login_form {
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  top: 120px;
+}
+.login_image_div {
+  display: inline-block;
+}
+
+.login_image {
+  margin: 35px 0px 0px 40px;
+  width: 250px;
+  height: 300px;
+}
+.login_image_link {
+  position: relative;
+  left: 95px;
+}
+
+/* contact page----------------------------------------- */
+.contact_page {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background_color-);
+}
+.contact_container {
+  display: flex;
+  justify-content: center;
+}
+.contact_info_container {
+  border: 1px solid rgb(177, 175, 175);
+  box-shadow: 0px 0px 10px rgba(156, 148, 204, 0.596);
+  width: 400px;
+  height: 70px;
+  margin: 25px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.contact_info_image {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.contact_info {
+  display: inline-block;
+  margin-left: 20px;
+}
+.contact_info_content_upper {
+  margin: 0%;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.contact_info_content {
+  margin: 0%;
+  font-size: 15px;
+}
+
+.contact_messages_page {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messages_container {
+  border: 1px solid rgb(177, 177, 177);
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(156, 148, 204, 0.596);
+}
+.contact_message_inside_container {
+  margin: 30px 70px;
+}
+.contact_form_container {
+  margin-top: 30px;
+}
+.contact_form_input {
+  width: 220px;
+  height: 35px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 5px;
+}
+.contact_form_input:focus {
+  border: 1px solid rgb(168, 166, 166);
+  outline: none;
+}
+.contact_form_input:read-write {
+  padding-left: 10px;
+}
+
+#contact_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#Get_in_touch_text {
+  font-size: 25px;
+}
+
+.contact_textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 5px;
+}
+.contact_textarea:focus {
+  outline: none;
+}
+
+.contact_textarea:read-write {
+  padding-left: 10px;
+}
+
+.contact_form_button_container {
+  margin-top: 10px;
+  margin-left: -15px;
+}
+
+/* Home Page ----------------------------------------------- */
+.Home_page_body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(169, 169, 230, 0.342) 49.7%,
+    white 50%
+  );
+}
+
+.welcome_text {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #3b6ddf;
+}
+.MERN_Developer {
+  font-size: 30px;
+  text-align: center;
+}
+
+.see_you_back_text {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+}
+
+/* Aboutus page-------------------------------------------- */
+
+.about_page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background_color-);
+}
+.About_container {
+  border: 1px solid rgb(204, 204, 204);
+  width: 60%;
+  height: 70%;
+  padding: 45px;
+  position: relative;
+  box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.808);
+  background-color: white;
+}
+.user_image_container {
+  width: 150px;
+  height: 180px;
+  display: inline-block;
+  margin-right: 50px;
+  border: 1px solid rgb(194, 191, 191);
+}
+.user_row1_info {
+  display: inline-block;
+}
+.user_image {
+  width: 100%;
+  height: 100%;
+}
+.img_right_info_container {
+  position: absolute;
+  top: 50px;
+}
+
+.img_right_info {
+  margin: 5px;
+}
+.img_right_info:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+.img_right_info:nth-child(2) {
+  color: #3b6ddf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.img_right_info:nth-child(3) {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.Edit_profile_button {
+  position: absolute;
+  top: 50px;
+  right: 45px;
+}
+.Edit_profile_button {
+  background-color: rgb(215, 222, 230);
+  border-radius: 30px;
+  border-width: 0px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.about_tab {
+  width: 500px;
+}
+
+.Work_Link_tab {
+  width: 200px;
+  height: 200px;
+  text-align: left;
+}
+
+#work_link_text {
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.work_link_links {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.work_link_links:hover {
+  text-decoration: underline;
+  color: #3b6ddf;
+}
+
+.all_tab_data {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  display: inline-block;
+}
+.user_info_key {
+  font-size: 14px;
+  font-weight: bold;
+}
+.user_info_value {
+  font-size: 15px;
+  color: #3b6ddf;
+}
+
+/* 404 Page------------------------------------- */
+
+.page404 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--background_color-);
+}
+.page404_container {
+  width: 800px;
+  height: 200px;
+  position: relative;
+  overflow: visible;
+}
+.page404_404text {
+  width: 100%;
+  position: absolute;
+  font-size: 200px;
+  font-weight: bold;
+  left: 25%;
+  bottom: 40px;
+  color: rgba(187, 187, 187, 0.404);
+  z-index: 0;
+}
+.page404_sorrytext {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: 4;
+}
+.page404_commenttext {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  z-index: 3;
+}
+.page404_home_button {
+  background-color: #3b6ddf;
+  color: white;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: 200ms;
+  display: block;
+  position: absolute;
+  left: 37%;
+  top: 70%;
+}
+.page404_home_button:hover {
+  color: white;
+  transform: scale(1.01);
+}

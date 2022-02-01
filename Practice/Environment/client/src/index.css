@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Navbar_Container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(143, 143, 143);
+  padding: 15px;
+}
+.NavbarLink {
+  color: aliceblue;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+input {
+  display: block;
+  margin: 15px;
+  width: 250px;
+  height: 30px;
+}
+
+textarea {
+  margin: 15px;
+  width: 250px;
+  height: 100px;
+}
